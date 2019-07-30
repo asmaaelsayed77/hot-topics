@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Lato&display=swap');
+
+/* colors 
+
+#007CFC -----light blue
+#01FFFF ----- Terquaise
+#021058 ----- Dark blue
+#0433BF ----- Medium blue
+*/
+
+body {
+	align-content: center;
+	font-size: 0.75rem;
+	line-height: 1.4;
+}
+
+.masthead {
+	background-image: url("../images/header-2.jpg");
+	width: 100%;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.masthead h1 {
+	font-family: 'Crete Round', serif;
+	font-size: 3em;
+	color: #01FFFF;
+	text-align: center;
+	margin-top: 100px
+}
+
+.article {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+nav.article ul li {
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5rem;
+	padding: .5rem;
+	margin: 1rem;
+	background-color: transparent;
+	border-color: #007CFC;
+	color: #007CFC;
+	border: .1rem solid #007CFC;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+
+nav.article ul li a:link,
+nav.article ul li a:hover,
+nav.article ul li a:active {
+	text-decoration: none;
+	color: #01FFFF;
+	cursor: pointer;
+
+	}
+
+
+figure {
+	margin-top: 30px;
+}
+
+figcaption {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+}
+
+
+.page img {
+	width: 100%;
+	height: auto;
+}
+
+.page h1 {
+	width: 100%;
+	height: auto;
+	font-family: 'Crete Round', serif;
+	font-size: 2.5em;
+	padding-top: 30px;
+	color: #0433BF;
+	text-align: center;
+}
+
+.page p {
+	width: 90%;
+	font-family: 'Lato', sans-serif;
+	color: #021058;
+	font-size: 1.5em;
+	margin: 20px;
+	text-align: left;
+}
+
+footer {
+	background-color: #021058;
+	min-height: 100px;
+	display: block;
+}
+
+footer p {
+	font-size: 1rem;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+footer i {
+	font-size: 3em;
+}
+
+footer i a: hover,
+footer i a: active {
+	color: #01FFFF;
+}
+
+a.navbar-brand.p-2 {
+	font-family: 'Crete Round', serif;
+	font-size: 2.5em;
+	margin-top: 5px;
+
+}
+
+.world i {
+	margin: 30px;
+	font-size: 2em;
+}
+
+.card {
+	padding: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-text {
+	font-family: 'Lato', sans-serif;
+	color: #0433BF;
+}
+
+.card img {
+	width: 100%;
+	
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	body {
+		font-size: 1rem;
+		align-content: left;
+		line-height: 1.5;
+	}
+
+	.masthead {
+		background-image: url("../images/header-2.jpg");
+		width: 100%;
+		height: 50vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+
+	.masthead h1 {
+		font-family: 'Crete Round', serif;
+		font-size: 5em;
+		color: #01FFFF;
+		text-align: center;
+	}
+
+	nav.article ul li {
+		font-family: 'Lato', sans-serif;
+		background-color: transparent;
+		border-color: #007CFC;
+/*		color: #007CFC;*/
+		box-sizing: border-box;
+	}
+
+	nav.article ul {
+		width: 100%;
+		height: 45px;
+		font-size: 2rem;
+	}
+	
+	nav.article ul li {
+		margin: 0;
+		padding: 0;
+		width: 40%;
+		float: left;
+		
+	}
+	
+	nav.article ul li:first-child, nav.article ul li:last-child {
+		margin-right: 5%;
+		margin-left: 5%;
+		
+	}
+	
+	nav.article ul li a {
+	
+	}
+	
+	hr {
+		clear: both;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	figure,
+	.page p,
+		{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	figure {
+		width: 40%;
+		float: left;
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+	.page p {
+		width: auto;
+	}
+
+	figcaption {
+		font-family: 'Lato', sans-serif;
+		font-size: 1.5rem;
+	}
+
+
+	footer p {
+		font-size: 1.5em;
+	}
+
+	.world i {
+		padding: 10px;
+		font-size: 2em;
+	}
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body {
+		font-size: 1.25rem;
+		align-content: left;
+		line-height: 1.6;
+	}
+
+	.masthead h1 {
+		font-family: 'Crete Round', serif;
+		font-size: 4em;
+		color: #01FFFF;
+		text-align: right;
+		margin-right: 150px;
+		margin-top: 250px;
+	}
+
+	.masthead {
+		background-image: url("../images/header-2.jpg");
+		width: 100%;
+		height: 80vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	form {
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		display: inline-flex;
+
+	}
+	
+	nav.article ul li {
+		
+	}
+
+
+	figure {
+		margin-top: 0;
+	}
+
+	.page p {
+		float: left;
+		margin: 0;
+		width: 60%;
+		font-family: 'Lato', sans-serif;
+		font-size: 1.4em;
+		align-content: center;
+	}
+
+}
