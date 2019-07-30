@@ -1,6 +1,6 @@
 const links = document.querySelectorAll("nav ul li a");
-let urlHome = "../html-partials/home.html";
-let urlportfolio = "../html-partials/portfolio.html";
+let urlHome = "./html-partials/home.html";
+let urlportfolio = "./html-partials/portfolio.html";
 let container = document.querySelector(".load");
 let errorContainer = document.querySelector(".error");
 
