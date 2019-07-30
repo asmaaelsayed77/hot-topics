@@ -3,7 +3,7 @@ let urlHome = "./html-partials/home.html";
 let urlportfolio = "./html-partials/portfolio.html";
 let container = document.querySelector(".load");
 let errorContainer = document.querySelector(".error");
-console.log("link");
+
 /*function loadContent(urlValue) {
 	
 	//here is where you want to use your fetch methos
